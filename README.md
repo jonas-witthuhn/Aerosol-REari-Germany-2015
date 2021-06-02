@@ -22,7 +22,7 @@ To run the "make_datasets_..." scripts, ecRad is needed:
 ## Dependencies
 Use anaconda to create python environment with all required dependencies:
 ```
- conda create -f environment.yml
+ conda env create -f environment.yml
 ```
 This will install python 3.7 with the following modules:
 * conda:
@@ -44,6 +44,10 @@ This will install python 3.7 with the following modules:
 * pip:
     * SkillMetrics (https://pypi.org/project/SkillMetrics/)
     * jstyleson (https://pypi.org/project/jstyleson/)
+    * clear_sky_detection (https://github.com/jonas-witthuhn/clear_sky_detection)
+    * clear_sky_models (https://github.com/jonas-witthuhn/clear-sky-models)
+    * ecrad_python (https://github.com/jonas-witthuhn/ecrad_python)
+    * CAMS_aerosol_props (https://github.com/jonas-witthuhn/CAMS_aerosol_props)
 
 
 ## make datasets:
