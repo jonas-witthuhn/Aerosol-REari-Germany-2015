@@ -1,0 +1,145 @@
+[
+
+	{
+		"levtype"  : "ml",
+		"param_name"    : [
+			"temperature",		//"130"	
+			"u_component_of_wind",	//"131"
+			"v_component_of_wind",	//"132"
+			// atmospheric gases
+			"specific_humidity",	//"133"
+			"nitrogen_dioxide",	//"210121"
+			"ozone",		//"210203"
+			// Aerosol mixing ratios
+			"sea_salt_aerosol_0.03-0.5um_mixing_ratio",	//"210001"
+			"sea_salt_aerosol_0.5-5um_mixing_ratio",	//"210002"
+			"sea_salt_aerosol_5-20um_mixing_ratio",		//"210003"
+			"dust_aerosol_0.03-0.55um_mixing_ratio",
+			"dust_aerosol_0.55-0.9um_mixing_ratio",
+			"dust_aerosol_0.9-20um_mixing_ratio",
+			"hydrophilic_black_carbon_aerosol_mixing_ratio",
+			"hydrophilic_organic_matter_aerosol_mixing_ratio",
+			"hydrophobic_black_carbon_aerosol_mixing_ratio",
+			"hydrophobic_organic_matter_aerosol_mixing_ratio",
+			"sulphate_aerosol_mixing_ratio"		//"210011"
+		],
+        "param_ID"    : [
+			"128130",		
+			"128131",	
+			"128132",
+			// atmospheric gases
+			"128133",	
+			"210121",	
+			"210203",	
+			// Aerosol mixing ratios
+			"210001",
+			"210002",	
+			"210003",
+			"210004",
+			"210005",
+			"210006",
+			"210007",
+			"210008",
+			"210009",
+			"210010",
+			"210011"
+		]
+	},
+  {
+    "levtype" : "sfc_lsm",
+    "param_name"   : [
+      "land_sea_mask"
+    ],
+    "param_ID" :[
+      "128172"
+      ]
+  },
+	{
+		"levtype" : "sfc_rad",
+		"param_name"   : [
+			"near_ir_albedo_for_diffuse_radiation",
+			"near_ir_albedo_for_direct_radiation",
+			"uv_visible_albedo_for_diffuse_radiation",
+			"uv_visible_albedo_for_direct_radiation"
+		],
+        "param_ID" :[
+            "128018",
+            "128017",
+            "128016",
+            "128015"
+      ]
+	
+	},
+	{
+		"levtype" : "sfc_chem",
+		"param_name"   : [
+			"total_column_methane",
+			"total_column_nitrogen_dioxide",
+			"total_column_ozone",
+			"total_column_water_vapour",
+			"vertically_integrated_mass_of_dust_aerosol_0.03-0.55um",
+			"vertically_integrated_mass_of_dust_aerosol_0.55-9um",
+			"vertically_integrated_mass_of_dust_aerosol_9-20um",
+			"vertically_integrated_mass_of_hydrophilic_black_carbon_aerosol",
+			"vertically_integrated_mass_of_hydrophilic_organic_matter_aerosol",
+			"vertically_integrated_mass_of_hydrophobic_black_carbon_aerosol",
+			"vertically_integrated_mass_of_hydrophobic_organic_matter_aerosol",
+			"vertically_integrated_mass_of_sea_salt_aerosol_0.03-0.5um",
+			"vertically_integrated_mass_of_sea_salt_aerosol_0.5-5um",
+			"vertically_integrated_mass_of_sea_salt_aerosol_5-20um",
+			"vertically_integrated_mass_of_sulphate_aerosol"
+		],
+        "param_ID":[
+            "218004",
+            "210125",
+            "128206",
+            "128137",
+            "215043",
+            "215044",
+            "215045",
+            "215078",
+            "215062",
+            "215077",
+            "215061",
+            "215019",
+            "215020",
+            "215021",
+            "215087"
+        ]
+	},
+	{
+		"levtype" : "sfc_met",
+		"param_name"   : [
+			"skin_temperature",
+			"surface_pressure"
+		],
+        "param_ID" :[
+            "128235",
+            "128134"
+        ]
+	},
+
+	{
+		"levtype"  : "sfc",
+		"param_name"    : [
+			"2m_dewpoint_temperature",
+			"2m_temperature",
+			"surface_geopotential",
+			"total_aerosol_optical_depth_1240nm",
+			"total_aerosol_optical_depth_469nm",
+			"total_aerosol_optical_depth_550nm",
+			"total_aerosol_optical_depth_670nm",
+			"total_aerosol_optical_depth_865nm"
+		],
+        "param_ID":[
+            "128167",
+            "128168",
+            "162051",
+            "210216",
+            "210213",
+            "210207",
+            "210214",
+            "210215"
+        ]
+	}
+]
