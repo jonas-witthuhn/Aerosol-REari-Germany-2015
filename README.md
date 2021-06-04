@@ -1,7 +1,7 @@
-# Clear sky direct radiative effect of aerosols over Germany
+# **Clear sky direct radiative effect of aerosols over Germany**
 
 This package includes all python scripts and modules to conduct the analysis done in the paper.
-The resulting figures can be found in the *figures* directory.
+The resulting figures can be found in the **Figures** directory.
 
 ---
 
