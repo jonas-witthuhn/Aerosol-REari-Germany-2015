@@ -17,11 +17,6 @@ import datetime as dt
 import trosat.sunpos as sp
 import modules.msevi_geolocation as msevi
 
-def aeronet_stations():
-    """ Store Metadata of all AERONET station in xarray Datset"""
-    with open("datasets/aeronet_sites.json") as txt:
-        sites=json.load(txt)
-    return sites
 
 def dwd_stations():
     """Store Metadata of all DWD stations in xarray Dataset"""

@@ -24,6 +24,7 @@ dependencies:
     - clear_sky_models @ git+https://github.com/jonas-witthuhn/clear-sky-models.git#egg=clear_sky_models
     - ecrad_python @ git+https://github.com/jonas-witthuhn/ecrad_python.git#egg=ecrad_python
     - CAMS_aerosol_props @ git+https://github.com/jonas-witthuhn/CAMS_aerosol_props.git#egg=CAMS_aerosol_props
+    - trosat-base @ git+https://github.com/hdeneke/trosat-base.git#egg=trosat-base
 
 
 

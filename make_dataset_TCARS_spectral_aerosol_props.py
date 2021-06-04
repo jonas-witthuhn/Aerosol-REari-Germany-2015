@@ -36,10 +36,11 @@ tsi_path = os.path.join(pf,"sorce_tsi_24hr_l3_full.csv")
 
 # REari kernel, REari, surface irradiance and aerosol optical props
 # will be stored in this file
-fname_dsTCARS = os.path.join(pf,'test_TCARS_spectral_aerosol_props_{year}.nc')
+fname_dsTCARS = os.path.join(pf,'TCARS_spectral_aerosol_props_{year}.nc')
 
 
 years = np.arange(2003,2020)
+# years = [2015]
 for year in years:
 #     if year == 2015:
 #         continue

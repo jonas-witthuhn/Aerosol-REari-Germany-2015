@@ -40,7 +40,7 @@ tsi_path = os.path.join(pf,"sorce_tsi_24hr_l3_full.csv")
 
 # REari kernel, REari, surface irradiance and aerosol optical props
 # will be stored in this file
-fname_dsTCARS = os.path.join(pf,'test_TCARS_irradiance_kernel.nc')
+fname_dsTCARS = os.path.join(pf,'TCARS_irradiance_kernel.nc')
 
 # define timeframe
 days = pd.date_range("2015-01-01","2015-12-31")
