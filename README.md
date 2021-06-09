@@ -25,7 +25,7 @@ To run the "make_datasets_..." scripts, ecRad is needed:
 Use [anaconda](https://www.anaconda.com/) to create python environment with all required dependencies:
 ```
  conda env create -f environment.yml
- conda acitvate witthuhn2021
+ conda activate witthuhn2021
 ```
 This will install python 3.7 with the following modules:
 * conda:
