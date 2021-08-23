@@ -9,11 +9,11 @@ The resulting figures can be found in the **Figures** directory.
 Results as shown in Figures and Tables in the Paper are presented as jupyter notebooks beginning with "results_...".
 The required intermediate datasets are produced by "make_dataset....py".
 
-To run any of the scripts and notebooks, the raw datasets are required and available from Zenodo: 
+To run any of the scripts and notebooks, the raw datasets are required and available from [Zenodo](https://doi.org/10.5281/zenodo.4892730): 
 
 So the steps to get started:
 1. Clone this repository 
-2. Download and extract the datasets folder
+2. Download and extract the datasets folder from [Zenodo](https://doi.org/10.5281/zenodo.4892730)
 3. Edit the paths in [ConfigFile.ini](ConfigFile.ini) 
 4. Configure a python environment (see below)
 5. Try to run the "results_..." notebooks first.
@@ -25,7 +25,7 @@ To run the "make_datasets_..." scripts, ecRad is needed:
 Use [anaconda](https://www.anaconda.com/) to create python environment with all required dependencies:
 ```
  conda env create -f environment.yml
- conda acitvate witthuhn2021
+ conda activate witthuhn2021
 ```
 This will install python 3.7 with the following modules:
 * conda:
@@ -59,7 +59,7 @@ Some modules are created by the authors. For a brief description of the usage of
 
 ## From scratch:
 
-To follow the analysis of the paper from scratch, the following basis datasets are required:
+To follow the analysis of the paper from scratch, the following basis datasets are required ([Zenodo](https://doi.org/10.5281/zenodo.4892730)):
 
 * **AERONET** - direct sun and inversion products from AERONET 
 * **CAMSRA** - CAMS reanalysis model level data for atmospheric and aerosol parameter
