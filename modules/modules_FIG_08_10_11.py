@@ -29,20 +29,26 @@ def make_map(fig,ax):
                                             scale='10m',
                                              facecolor='none')
 
-        ax.add_feature(countries,edgecolor='k')
+        ax.add_feature(countries,edgecolor=(0.3,0.3,0.3))
         land_50m = cfeature.NaturalEarthFeature('physical', 'land', '50m',
                                         edgecolor='face',
+#                                             edgecolor=(0.5,0.5,0.5),
                                         facecolor=cfeature.COLORS['land'])
         ocean_50m = cfeature.NaturalEarthFeature('physical', 'ocean', '50m',
                                         edgecolor='face',
+#                                                  edgecolor=(0.5,0.5,0.5),
                                         facecolor=cfeature.COLORS['water'])
 
-        gl = ax.gridlines(crs=ccrs.PlateCarree(), draw_labels=True)
+        gl = ax.gridlines(crs=ccrs.PlateCarree(),
+                          xlocs=[6,9,12,15],
+                          ylocs=[48,49,50,51,52,53,54],
+                          draw_labels=True)
         gl.top_labels = False
         gl.left_labels = True
         gl.right_labels = False
         gl.yformatter = LATITUDE_FORMATTER
         gl.xformatter = LONGITUDE_FORMATTER
+        gl.rotate_labels=False
         return ax
 
     ax.gridlines()
